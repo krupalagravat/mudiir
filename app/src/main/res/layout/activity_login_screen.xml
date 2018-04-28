@@ -6,6 +6,11 @@
     android:background="@drawable/loginbackground"
     tools:context="com.mudiir.Login_screen">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dark_background" />
+
     <ImageView
         android:id="@+id/iv_logo"
         android:layout_width="120dp"

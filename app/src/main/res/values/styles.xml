@@ -11,6 +11,16 @@
         <item name="android:editTextStyle">@style/MyeditText</item>
     </style>
 
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="spinnerStyle">@style/Widget.App.Spinner</item>
+        <item name="android:spinnerStyle">@style/Widget.App.Spinner</item>
+        <item name="android:editTextStyle">@style/MyeditText</item>
+    </style>
+
     <style name="Widget.App.Spinner" parent="@style/Widget.AppCompat.Spinner">
         <item name="overlapAnchor">true</item>
         <item name="android:background">@drawable/custom_spinner</item>

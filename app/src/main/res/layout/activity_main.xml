@@ -3,8 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@drawable/loginbackground"
     tools:context="com.mudiir.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dark_background" />
 
     <ImageView
         android:id="@+id/iv_logo"
@@ -62,4 +68,6 @@
         android:layout_marginTop="15dp"
         android:text="@string/forgotpass"
         android:textColor="@color/white" />
+
+
 </RelativeLayout>
