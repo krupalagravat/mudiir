@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo">120dp</dimen>
+    <dimen name="title">18sp</dimen>
+    <dimen name="txtsmall">20sp</dimen>
+    <dimen name="margintopmid">50dp</dimen>
+    <dimen name="margintopsmall">15dp</dimen>
+    <dimen name="loginwidth">300dp</dimen>
+    <dimen name="loginheight">45dp</dimen>
+    <dimen name="smallpadding">10dp</dimen>
+</resources>

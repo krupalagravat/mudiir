@@ -28,11 +28,12 @@
 
     <style name="MyeditText" parent="@android:style/Widget.EditText">
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginTop">@dimen/margintopsmall</item>
         <item name="android:background">@drawable/edit_text</item>
         <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">@dimen/txtsmall</item>
+        <item name="android:paddingLeft">@dimen/smallpadding</item>
+        <item name="android:paddingRight">@dimen/smallpadding</item>
         <item name="android:textColorHint">@color/txthint</item>
     </style>
 </resources>
