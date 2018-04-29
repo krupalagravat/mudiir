@@ -32,6 +32,7 @@ public class Login_screen extends AppCompatActivity {
         mViewPager.setAdapter(new SamplePagerAdapter(
                 getSupportFragmentManager()));
         addDots();
+        mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
         selectDot(0);
     }
 
